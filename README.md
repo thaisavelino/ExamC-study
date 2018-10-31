@@ -5,7 +5,7 @@ Some projects from examshell.
 
 | #	 | Subject             | Current Status 		|
 |----|:-------------------:|:----------------------:|
-|-[ ]| **aff_a**           | <ul><li>- [x]finished</li><li>- [ ]tested</li></ul>|
+| - [ ] | **aff_a**           | <ul><li>- [x]finished</li><li>- [ ]tested</li></ul>|
 |-[ ]| **aff_first_param** | [x] row   			|
 |-[ ]| **aff_last_param**  | [x] 	 			|
 |-[ ]| **aff_z**           | [x] 	 			|
@@ -13,3 +13,6 @@ Some projects from examshell.
 |-[ ]| **maff_revalpha**   | :white_check_mark:	|
 |-[ ]| **only_z**          | :white_check_mark:	|
 |-[ ]| **strlen_sh**       | 					|
+
+- [x] 
+- [ ] 
