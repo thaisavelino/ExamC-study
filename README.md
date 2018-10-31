@@ -5,9 +5,9 @@ Some projects from examshell.
 
 |  Exercize                 | Status |
 |:-------------------------:|--------|
-| - [x] aff_a               | - [x]ok|
-| - [x] aff_first_param     | - [x]ok|       
-| - [x] **aff_last_param**  | - [ ]ok|
+| - [x] aff_a               |# [checkbox:checked]|
+| - [x] aff_first_param     |# [checkbox:unchecked]|       
+| - [x] **aff_last_param**  |# [checkbox:checked]|
 | - [ ]  **aff_z**          |        |
 | - [ ] **maff_alpha**      |        |
 | - [ ] **maff_revalpha**   |        |
