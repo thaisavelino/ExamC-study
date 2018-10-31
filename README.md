@@ -36,8 +36,8 @@ Some projects from examshell.
 
 ## Level 2
 
-|   | Subject            |
-|----|--------------------|
+| Status |  Exercize              |
+|:----:|------------------------|
 |   | **alpha_mirror**   |
 |   | **do_op**          |
 |   | **ft_atoi**        |
@@ -56,8 +56,8 @@ Some projects from examshell.
 
 ## Level 3
 
-|   | Subject              |
-|----|----------------------|
+| Status |  Exercize              |
+|:----:|------------------------|
 |   | **add_prime_sum**    |
 |   | **epur_str**         |
 |   | **expand_str**       |
@@ -76,8 +76,8 @@ Some projects from examshell.
 
 ## Level 4
 
-|   | Subject               |
-|----|-----------------------|
+| Status |  Exercize              |
+|:----:|------------------------|
 |   | **fprime**            |
 |   | **ft_itoa**           |
 |   | **ft_list_foreach**   |
@@ -90,8 +90,8 @@ Some projects from examshell.
 
 ## Level 5
 
-|  | Subject            |
-|---|--------------------|
+| Status |  Exercize              |
+|:----:|------------------------|
 |  | brackets       |
 |  | brainfuck      |
 |  | check_mate     |
