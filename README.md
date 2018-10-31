@@ -4,7 +4,7 @@ Some projects from examshell.
 ## Level 0
 
 | Status |  Exercize                |
-|--------|:------------------------:|
+|:------:|--------------------------|
 |        | aff_a                    |
 |        | aff_first_param          |       
 |        | aff_last_param**         |
