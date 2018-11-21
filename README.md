@@ -99,3 +99,8 @@ Some projects from examshell.
 |  | options        |
 |  | print_memory   |
 |  | rpn_calc       |
+
+
+
+### Check my Projects
+To check more projects go to my [Portfolio page](https://github.com/thaisavelino/Portfiolio_42_SiliconValley_Paris)
