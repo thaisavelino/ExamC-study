@@ -23,3 +23,38 @@ $
 $> ./last_word "  lorem,ipsum  " | cat -e
 lorem,ipsum$
 $>
+
+#include<unistd.h>
+#include<stdio.h>
+
+void    *last_word(char *str)
+{
+    int i;
+    int start, end;
+    
+    i = 0;
+    start = 0;
+    end = 0;
+    while(str[end])
+        end++;
+    end--;
+    while (str[end] == ' ' || str[end] == '\t')
+        end--;
+    while (str[i] && i < end)
+    {
+        if (str[i] == ' ' || str[i] == '\t')
+            start = i;
+        i++;
+    }
+    while(str[start])
+        write(1, &str[start++], 1);
+}
+
+int main(int argc, char **argv)
+{
+    printf("%s", argv[1]);
+    if (argc == 2)
+        last_word(argv[1]);
+    write(1, "\n", 1);
+    return (0);
+}
