@@ -46,13 +46,12 @@ void    *last_word(char *str)
             start = i;
         i++;
     }
-    while(str[start])
+    while(str[start] && start < end)
         write(1, &str[start++], 1);
 }
 
 int main(int argc, char **argv)
 {
-    printf("%s", argv[1]);
     if (argc == 2)
         last_word(argv[1]);
     write(1, "\n", 1);
