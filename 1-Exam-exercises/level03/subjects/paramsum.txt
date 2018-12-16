@@ -1,3 +1,4 @@
+/* ****************************************************
 Assignment name  : paramsum
 Expected files   : paramsum.c
 Allowed functions: write
@@ -17,3 +18,31 @@ $>./paramsum 6 12 24 | cat -e
 $>./paramsum | cat -e
 0$
 $>
+******************************************************* */
+
+#include <unistd.h>
+#include <stdio.h>
+
+void	ft_putchar(char c)
+{
+	write (1, &c, 1);
+}
+
+void	put_nbr(int n)
+{
+	char c;
+
+	if (n >= 10)
+		put_nbr(n / 10);
+	c = n % 10 + '0';
+	ft_putchar(c);
+}
+
+int		main(int argc, char **argv)
+{
+	(void)argv;
+	if (argc >= 1)
+		put_nbr(argc - 1);
+	ft_putchar('\n');
+	return (0);
+}
