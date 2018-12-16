@@ -39,9 +39,9 @@ Some projects from examshell.
 | Status |  Exercize              |
 |:----:|------------------------|
 |   | **alpha_mirror**   |
-|   | **do_op**          |
-|   | **ft_atoi**        |
-|   | **ft_strcmp**      |
+| test  | **do_op**          |
+| test  | **ft_atoi**        |
+| ok  | **ft_strcmp**      |
 |   | **ft_strdup**      |
 |   | **ft_strrev**      |
 |   | **inter**          |
