@@ -1,3 +1,4 @@
+/*
 Assignment name  : do_op
 Expected files   : *.c, *.h
 Allowed functions: atoi, printf, write
@@ -26,3 +27,53 @@ $> ./do_op "1" "+" "-43" | cat -e
 -42$
 $> ./do_op | cat -e
 $
+*/ 
+
+#include <stdio.h>
+
+int		ft_atoi(char *s)
+{
+	int		sign;
+	int	    num;
+
+	num = 0;
+	sign = 1;
+	if (s || *s)
+	{
+    	while (*s == 32 || (*s >= 9 && *s <= 13))
+    		s++;
+    	if (*s == '-')
+    		sign = -1;
+    	if (*s == '+' || *s == '-')
+    		s++;
+    	while (*s >= '0' && *s <= '9')
+    	{
+    		num = num * 10 + *s - '0';
+    		s++;
+    	}
+	}
+	return (num * sign);
+}
+
+int    do_op(int num1, char *op, int num2)
+{
+    if (*op == '*')
+        return (num1 + num2);
+    if (*op == '-')
+        return (num1 - num2);
+    if (*op == '/')
+        return (num1 / num2);
+    if (*op == '+')
+        return (num1 + num2);
+    return (0);
+}
+
+
+int		main(int argc, char **argv)//
+{//
+    if (argc == 4)
+    {
+        printf("%d", do_op(ft_atoi(argv[1]), argv[2], ft_atoi(argv[3])));
+    }
+    return (0);
+}//
