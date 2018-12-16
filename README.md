@@ -67,7 +67,7 @@ Some projects from examshell.
 |   | **ft_rrange**        |
 |   | **hidenp**           |
 |   | **lcm**              |
-|  | **paramsum**         |
+| ok | **paramsum**         |
 |  | **pgcd**             |
 | test | **print_hex**        |
 |  | **rstr_capitalizer** |
