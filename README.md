@@ -69,7 +69,7 @@ Some projects from examshell.
 |   | **lcm**              |
 |  | **paramsum**         |
 |  | **pgcd**             |
-|  | **print_hex**        |
+| test | **print_hex**        |
 |  | **rstr_capitalizer** |
 |  | **str_capitalizer**  |
 |  | **tab_mult**         |
