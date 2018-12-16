@@ -42,7 +42,7 @@ Some projects from examshell.
 | test  | **do_op**          |
 | test  | **ft_atoi**        |
 | ok  | **ft_strcmp**      |
-|   | **ft_strdup**      |
+| ok  | **ft_strdup**      |
 |   | **ft_strrev**      |
 |   | **inter**          |
 |   | **is_power_of_2**  |
