@@ -63,7 +63,7 @@ Some projects from examshell.
 |   | **expand_str**       |
 |   | **ft_atoi_base**     |
 |   | **ft_list_size**     |
-|   | **ft_range**         |
+| ok  | **ft_range**         |
 |   | **ft_rrange**        |
 |   | **hidenp**           |
 |   | **lcm**              |
