@@ -44,7 +44,7 @@ Some projects from examshell.
 | ok  | **ft_strcmp**      |
 | ok  | **ft_strdup**      |
 |   | **ft_strrev**      |
-|   | **inter**          |
+| ok  | **inter**          |
 |   | **is_power_of_2**  |
 |   | **last_word**      |
 |  | **max**            |
