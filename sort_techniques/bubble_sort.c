@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   bubble_sort.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tavelino <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: tavelino <tavelino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/11 22:15:41 by tavelino          #+#    #+#             */
-/*   Updated: 2018/10/11 22:46:40 by tavelino         ###   ########.fr       */
+/*   Updated: 2018/12/31 03:30:32 by tavelino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*********************
  * Ele compara o elemento atual com o seguinte
  * e vai indo do primeiro até o ultimo.. volta para o segundo e vai até ultimo
- * volta para o terceiro e vai até o ultimo.. 
+ * volta para o terceiro e vai até o ultimo..
  * isso até acabar o array
  *
  *********************/
@@ -37,7 +37,6 @@ void	print_array(int array[]){
 
 
 //BubbleSort Function
-
 void	bubble_sort(int array[TAM]){
 	int actual;
 	int comp;
