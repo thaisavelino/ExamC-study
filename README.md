@@ -58,7 +58,7 @@ Some projects from examshell.
 
 | Status |  Exercize              |
 |:----:|------------------------|
-|   | **add_prime_sum**    |
+| test  | **add_prime_sum**    |
 |   | **epur_str**         |
 |   | **expand_str**       |
 |   | **ft_atoi_base**     |
