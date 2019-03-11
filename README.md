@@ -44,7 +44,7 @@ Some projects from examshell.
 | ok  | **ft_strcmp**      |
 | ok  | **ft_strdup**      |
 |   | **ft_strrev**      |
-|   | **inter**          |
+| ok  | **inter**          |
 |   | **is_power_of_2**  |
 |   | **last_word**      |
 |  | **max**            |
@@ -63,13 +63,13 @@ Some projects from examshell.
 |   | **expand_str**       |
 |   | **ft_atoi_base**     |
 |   | **ft_list_size**     |
-|   | **ft_range**         |
+| ok  | **ft_range**         |
 |   | **ft_rrange**        |
 |   | **hidenp**           |
 |   | **lcm**              |
 | ok | **paramsum**         |
 |  | **pgcd**             |
-| test | **print_hex**        |
+| ok | **print_hex**        |
 |  | **rstr_capitalizer** |
 |  | **str_capitalizer**  |
 |  | **tab_mult**         |
