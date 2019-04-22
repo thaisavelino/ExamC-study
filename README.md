@@ -1,5 +1,12 @@
 # Exam
-Some projects from examshell.
+Here is what we have in each folder:
+
+* **base-exo** Are all functions you must know. They will be useful for advanced levels, so start training to do it fast during the exam.
+* **1-Exam-exercises** Some projects from each level.
+* **sort_techniques** Are some common sort algorithms.
+* **structures** I was just studying about structures.
+
+# 1-Exam-exercises
 
 ## Level 0
 
