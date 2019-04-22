@@ -1,4 +1,4 @@
-# Exam
+# Exam C - Alone in the dark
 Here is what we have in each folder:
 
 * **base-exo** Are all functions you must know. They will be useful for advanced levels, so start training to do it fast during the exam.
