@@ -52,7 +52,7 @@ Here is what we have in each folder:
 | ok  | **ft_strdup**      |
 | ok  | **ft_strrev**      |
 | ok  | **inter**          |
-|   | **is_power_of_2**  |
+| ok  | **is_power_of_2**  |
 |   | **last_word**      |
 |  | **max**            |
 |  | **print_bits**     |
