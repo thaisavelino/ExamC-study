@@ -45,8 +45,8 @@ Here is what we have in each folder:
 
 | Status |  Exercize              |
 |:----:|------------------------|
-|   | **alpha_mirror**   |
-| test  | **do_op**          |
+| donne | **alpha_mirror**   |
+| donne | **do_op**          |
 | test  | **ft_atoi**        |
 | ok  | **ft_strcmp**      |
 | ok  | **ft_strdup**      |
