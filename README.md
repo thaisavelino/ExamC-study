@@ -47,10 +47,10 @@ Here is what we have in each folder:
 |:----:|------------------------|
 | donne | **alpha_mirror**   |
 | donne | **do_op**          |
-| test  | **ft_atoi**        |
+| ok  | **ft_atoi**        |
 | ok  | **ft_strcmp**      |
 | ok  | **ft_strdup**      |
-|   | **ft_strrev**      |
+| ok  | **ft_strrev**      |
 | ok  | **inter**          |
 |   | **is_power_of_2**  |
 |   | **last_word**      |
@@ -65,8 +65,8 @@ Here is what we have in each folder:
 
 | Status |  Exercize              |
 |:----:|------------------------|
-| test  | **add_prime_sum**    |
-| test  | **epur_str**         |
+| donne  | **add_prime_sum**    |
+| donne  | **epur_str**         |
 | like epur  | **expand_str**       |
 |   | **ft_atoi_base**     |
 |   | **ft_list_size**     |
