@@ -53,11 +53,11 @@ Here is what we have in each folder:
 | ok  | **ft_strrev**      |
 | ok  | **inter**          |
 | ok  | **is_power_of_2**  |
-|   | **last_word**      |
+| donne  | **last_word**      |
 |  | **max**            |
 |  | **print_bits**     |
 |  | **reverse_bits**   |
-|  | **swap_bits**      |
+| donne | **swap_bits**      |
 |  | **union**          |
 |  | **wdmatch**        |
 
