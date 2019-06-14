@@ -23,3 +23,62 @@ rien$
 $>./inter | cat -e
 $
 ******************************************************************************/
+
+#include <unistd.h>
+#include <stdio.h>
+
+
+///////////////////////////////////
+// check if repeat in both strings
+
+void	ft_putchar(char c)
+{
+	write (1, &c, 1);
+}
+
+int		findchar(char c, char *str, int index)
+{
+	int	i;
+	int	find;
+
+	i = 0;
+	find = 0;
+	while (str[i] && i <= index)
+	{
+		if (str[i] == c)
+			find++;
+		i++;
+	}
+	printf("%d", find);
+	return (find);
+}
+
+void	ft_inter(char *s1, char *s2)
+{
+	int i;
+	int j;
+	char c;
+
+	i = 0;
+	j = 0;
+	while (s1[i])
+	{
+		c = s1[i];
+		while (s2[j])
+		{
+			if ((c == s2[j]) && findchar(c, s2, j) <= 1 && findchar(c, s1, i) <= 1)
+				ft_putchar(c);
+			j++;
+		}
+		i++;
+		j = 0;
+	}
+}
+
+int		main(int argc, char **argv)
+{
+	if (argc == 3)
+		ft_inter(argv[1], argv[2]);
+	ft_putchar('\n');
+	return (0);
+}

@@ -1,7 +1,7 @@
 /*
- * Check spaces 9 - 13 and 32
+ * Check spaces 9 to 13 and 32
  * Check sign
- * Convert n = n * 10 + *str - '0' (minus) 
+ * Convert n = n * 10 + (*str - '0') (minus) 
  */
 
 int		ft_atoi(const char *str)
